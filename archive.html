@@ -16,7 +16,23 @@
             <a href="about.html">紹介</a>
             <a href="archive.html">アーカイブ</a>
         </div>
+        <button class="navbar-hamburger" onclick="open_sidebar()">
+            &#9776;
+        </button>
     </nav>
+    <nav class="sidebar" style="display: none;">
+        <div style="display: flex; flex-direction: row-reverse; ">
+            <button class="sidebarHamburger" onclick="close_sidebar()" >
+                &times;
+            </button>
+        </div>
+        <div class="sidebarLinks" >
+            <a href="index.html">フォーラム</a>
+            <a href="about.html">紹介</a>
+            <a href="archive.html">アーカイブ</a>
+        </div>
+    </nav>
+
     <div class="container">
         
 <link rel="stylesheet" href="static/styles/archive.css">
@@ -37,6 +53,20 @@
 </div>
 
     </div>
+
+    <script>
+        const sidebar = document.querySelector(".sidebar");
+        const navbar = document.querySelector(".navbar");
+
+        function open_sidebar(){
+            navbar.style.display = "none";
+            sidebar.style.display = "";
+        }
+        function close_sidebar(){
+            navbar.style.display = "";
+            sidebar.style.display = "none";
+        }
+    </script>
 
 
         <a href="archive.html" class="signupButton">イベントに申し込む!</a>
