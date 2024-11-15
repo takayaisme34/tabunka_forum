@@ -1,0 +1,71 @@
+
+.schedule-list {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1em;
+    margin: 20px 0;
+}
+
+.schedule-list li {
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.event-details-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.event-details-table th, .event-details-table td {
+    padding: 15px;
+    text-align: left;
+}
+
+.event-details-table th {
+    background-color: #3a6186;
+    color: white;
+}
+
+.event-details-table tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+@media screen and (min-width: 1000px) {
+    .titlePartation {
+        display: none;
+    }
+}
+@media screen and (max-width: 700px) {
+    .header-section{
+        font-size: 12px;
+    }
+}
+
+.signupButton{
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+}
+.signupButton:hover{
+    font-size: larger;
+    transition: .3s;
+
+}
+
+
+.signupButton{
+    background: linear-gradient(135deg, #3a6186, #89253e);
+}
