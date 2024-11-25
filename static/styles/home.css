@@ -69,3 +69,16 @@
 .signupButton{
     background: linear-gradient(135deg, #3a6186, #89253e);
 }
+
+.guest-container {
+    margin-bottom: 20px;
+}
+
+.guest-name {
+    color: #89253e;
+    font-size: 1.5em;
+}
+
+.guest-description {
+    font-size: 1.1em;
+}
