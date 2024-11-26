@@ -82,3 +82,7 @@
 .guest-description {
     font-size: 1.1em;
 }
+
+.schedule-time{
+    color: rgb(46, 125, 236);
+}
